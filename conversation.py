@@ -30,7 +30,7 @@ class Conversation:
         elif cmd == "howto":
             self.send_reply(line, "How to run your own bot: Check out 'Lichess Bot API'")
         elif cmd == "hi":
-            self.send_reply(line, "Hi{opponent} my freind.")
+            self.send_reply(line, "Hi@{opponent} my freind.")
         elif cmd == "owner":
             self.send_reply(line, "@Drdisrespect1, @drrespectable.")
         elif cmd == "eval" and line.room == "spectator":
